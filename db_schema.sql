@@ -55,3 +55,4 @@ CREATE TABLE compras (
 );
 
 ALTER TABLE provincias ADD COLUMN region VARCHAR(20);
+ALTER TABLE provincias ADD COLUMN partido VARCHAR(50);

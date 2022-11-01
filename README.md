@@ -15,3 +15,10 @@
 1. Contar cuántas compras hizo Juan Perez sin usar un JOIN.
 2. Mostrar los nombres de las ciudades de Córdoba sin usar un JOIN.
 3. Nombrar las ciudades que tengan igual o menor población que Rosario.
+4. Mostrar en qué provincia vive el intendente Adan Bahl.
+5. Mostrar las ciudades más antiguas que Quilmes.
+6. Mostrar los productos que no se vendieron.
+7. Mostrar las compras de Resmas que hizo Juana Martinez.
+8. Mostrar todas las provincias con más población que cualquier provincia del NOA.
+9. Mostrar todas las provincias cuya superficie sea mayor a la Mesopotamia entera.
+10. Mostrar todas las provincias cuya población esté por encima del promedio nacional.

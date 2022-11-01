@@ -81,7 +81,8 @@ INSERT INTO productos(descripcion, marca, precio, stock) VALUES
 ('Cuaderno 48 hojas rayado', 'Rivadavia', 119.99, 500),
 ('Cuaderno 48 hojas cuadriculado', 'Rivadavia', 119.99, 500),
 ('Adhesivo para papel', 'Voligoma', 59.99, 1000),
-('Tijera', 'Maped', 89.99, 600);
+('Tijera', 'Maped', 89.99, 600),
+('Compas', 'Pizzini', 529.99, 100);
 
 INSERT INTO clientes(nombre,apellido,tel,calle,altura,localidad) VALUES
 ('Juan', 'Perez', '011 5555 5555', 'Baigorria', 5360, 1),
@@ -136,3 +137,28 @@ WHERE nombre IN ('Santa Fe', 'Cordoba', 'Buenos Aires', 'Ciudad Autonoma de Buen
 UPDATE provincias
 SET region = 'Chaco'
 WHERE nombre IN ('Chaco', 'Formosa');
+
+UPDATE provincias
+SET partido = 'PJ'
+WHERE nombre IN ('Buenos Aires', 'Catamarca', 'Cordoba', 'Entre Rios', 'Santa Cruz', 'Formosa', 'Chaco', 'La Pampa', 'La Rioja', 'Salta', 'San Juan', 'San Luis', 'Santa Fe', 'Tucuman');
+
+UPDATE provincias
+SET partido = 'UCR'
+WHERE nombre IN ('Corrientes', 'Jujuy', 'Mendoza', 'Santiago del Estero') OR id = 22;
+
+UPDATE provincias
+SET partido = 'Chubut Somos Todos'
+WHERE nombre = 'Chubut';
+UPDATE provincias
+SET partido = 'Partido de la Concordia Social'
+WHERE nombre = 'Misiones';
+UPDATE provincias
+SET partido = 'MPN'
+WHERE nombre = 'Neuquen';
+UPDATE provincias
+SET partido = 'Juntos Somos Rio Negro'
+WHERE nombre = 'Rio Negro';
+
+UPDATE provincias
+SET partido = 'PRO'
+WHERE nombre IN ('Ciudad Autonoma de Buenos Aires');
