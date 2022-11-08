@@ -22,3 +22,7 @@
 8. Mostrar todas las provincias con más población que cualquier provincia del NOA.
 9. Mostrar todas las provincias cuya superficie sea mayor a la Mesopotamia entera.
 10. Mostrar todas las provincias cuya población esté por encima del promedio nacional.
+11. Mostrar los nombres de todas las provincias que tienen ciudades cargadas en la tabla ciudades.
+12. Mostrar los nombres de todas las provincias que tienen su capital cargada en la tabla ciudades.
+13. Mostrar id, nombre, capital y poblacion de las provincias más pobladas de cada región.
+14. Mostrar una lista de las provincias con la cantidad de ciudades que tiene cargadas en la tabla de ciudades.
