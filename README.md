@@ -26,3 +26,16 @@
 12. Mostrar los nombres de todas las provincias que tienen su capital cargada en la tabla ciudades.
 13. Mostrar id, nombre, capital y poblacion de las provincias más pobladas de cada región.
 14. Mostrar una lista de las provincias con la cantidad de ciudades que tiene cargadas en la tabla de ciudades.
+15. Mostrar todas las provincias cuya población esté por encima del promedio en su región.
+16. Borrar todas las provincias que no tengan ciudades cargadas en la tabla ciudades.
+17. Sin ejecutarla, ¿qué es lo que muestra la siguiente query?
+```
+SELECT *
+FROM (SELECT C.id, fecha, descripcion, marca, cant, precio*cant
+      FROM compras AS C
+        JOIN productos AS P ON P.id = C.producto) AS D
+WHERE marca = 'Trabi';   
+```
+18. Borrar todas las compras de Pedro Gonzalez.
+19. Mostrar para cada provincia el porcentaje de población con respecto al total de Argentina.
+20. Mostrar para cada ciudad el porcentaje de población con respecto al total de su provincia.
